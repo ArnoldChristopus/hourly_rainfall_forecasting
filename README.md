@@ -12,6 +12,9 @@ Rainfall data is inherently dominated by 0, regular regression model fails to di
 Weighted loss functions are applied to address the class imbalance. Specifically, the classification loss is weighted to address the class imbalance by amplifying the loss during rainy events. Meanwhile, the regression loss is weighted to prioritize extreme values by amplifying the loss based on rainfall intensity (bigger rainfall has bigger weight).
 Hyperparameter tuning is performed using Optuna library.
 
+## Tools
+Model learning is performed on Google Colab and the results are saved into Excel. The visualizations are performed locally on Jupyter Notebook.
+
 ## Dependencies
 1. PyTorch -> machine learning model
 2. Numpy, Pandas, Matplotlib -> data processing and visualization
