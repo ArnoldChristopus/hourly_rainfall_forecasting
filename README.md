@@ -15,10 +15,17 @@ Hyperparameter tuning is performed using Optuna library.
 ## Pure Regression Model
 Pure regression model can be found in the Regression model folder to see how the model performs. The hybrid_vs_pure_regression_sample.pdf shows a sample of the difference between the prediction of hybrid model and the regression model.
 
+## Additional Analysis
+This repository also includes an Additional Analysis folder.
+It contains web scraping, hydrological, and statistical analyses (e.g., data validation, frequency analysis, hourly distribution) that support the rainfall forecasting project but are not part of the machine learning workflow.
+
+For details, see the README inside the folder.
+
 ## Tools
 Model learning is performed on Google Colab and the results are saved into Excel. The visualizations are performed locally on Jupyter Notebook.
 
 ## Dependencies
+These notebooks use the following Python libraries:
 1. PyTorch -> machine learning model
 2. Numpy, Pandas, Matplotlib -> data processing and visualization
 3. Scikit-learn -> metrics calculation
